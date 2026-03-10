@@ -1,1 +1,1 @@
-
+import AdminSidebar from "@/components/admin/AdminSidebar"; export default function Layout({children}:{children:React.ReactNode}){return <div className="grid gap-4 md:grid-cols-[260px_1fr]"><AdminSidebar/><div className="space-y-4">{children}</div></div>;}
