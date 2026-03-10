@@ -1,1 +1,1 @@
-
+import GlassCard from "@/components/ui/GlassCard"; import OfferForm from "@/components/admin/OfferForm"; export default function Page(){return <div className="space-y-4"><GlassCard><div className="text-sm font-semibold">Create Offer</div></GlassCard><OfferForm/></div>;}
