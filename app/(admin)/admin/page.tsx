@@ -1,1 +1,1 @@
-admin/page.tsx
+import GlassCard from "@/components/ui/GlassCard"; export default function Page(){return <GlassCard><div className="text-sm font-semibold">Dashboard</div><div className="mt-2 text-sm text-zinc-300">Manage offers, orders, payments.</div></GlassCard>;}
