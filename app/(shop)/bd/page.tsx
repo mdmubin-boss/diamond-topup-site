@@ -1,1 +1,9 @@
+import OfferListClient from "@/components/shop/OfferListClient";
+import GlassCard from "@/components/ui/GlassCard";
 
+export default async function Page() {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL ?? ""}/api/offers?category=bd`, { cache: "no-store" });
+  const data = await res.json();
+  if (!res.ok) return <GlassCard>Failed to load offers.</GlassCard>;
+  return <OfferListClient title="BD Server" category="bd" initial={data.offers ?? []} />;
+}
