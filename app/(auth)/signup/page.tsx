@@ -1,1 +1,1 @@
-
+import GlassCard from "@/components/ui/GlassCard"; export default function Page(){return <div className="space-y-4"><GlassCard><div className="text-sm font-semibold">Signup (Demo)</div><div className="mt-2 text-sm text-zinc-300">Replace with real auth.</div></GlassCard></div>;}
