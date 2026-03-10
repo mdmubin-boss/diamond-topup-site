@@ -1,1 +1,1 @@
-
+import GlassCard from "@/components/ui/GlassCard"; import Link from "next/link"; export default function Page(){return <div className="space-y-4"><GlassCard><div className="text-sm font-semibold">Login (Demo)</div><div className="mt-2 text-sm text-zinc-300">Go to /account to set role cookie.</div><div className="mt-3"><Link className="rounded-xl border border-zinc-800 px-3 py-2 text-sm hover:border-zinc-600" href="/account">Account</Link></div></GlassCard></div>;}
